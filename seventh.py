@@ -18,7 +18,7 @@ while ch!=4:
             if db>bal+50:
                 print("insufficient amount")
             else:
-                db=bal-db
+                db=bal-db+50
                 print("the debited amount is:", db)
     if ch==4:
      print("Thanku for using our services")
