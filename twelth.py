@@ -1,5 +1,5 @@
 """
-class mit():
+class mit:
     def __init__(self):
         print("in const")
 
@@ -10,7 +10,7 @@ m1=mit()
 print(mit.__doc__)
 m1.cs()
 
-class mit():
+class mit:
     def __init__(self,a,b):
         self.a=10
         self.b=20
@@ -21,7 +21,7 @@ m1=mit(10,20)
 print(mit.__doc__)
 
 
-class mit():
+class mit:
     def __init__(self ,a,b):
         self.a='grad'
         self.b=946
@@ -31,7 +31,7 @@ class mit():
 m1 = mit('gradit',9455)
 m1.show()
 
-class mit():
+class mit:
     def __init__(self ,a,b):
         self.a='grad'
         self.b=946
@@ -45,7 +45,7 @@ print(mit.__doc__)
 print(mit.__dict__)
 print(help(mit))
 """
-class mit():
+class mit:
     college="miot"
     def __init__(self):
         print(college)
