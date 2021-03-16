@@ -1,13 +1,11 @@
-class cutomer:
-
- op=int(input("Please select one option from the given list\n"))
-
-print("1.Add Customer:")
-print("2.Delete Customer:")
-print("3.Show all customer:")
-print("4.Update customer:")
-print("5.Exit:")
-ch=int(input())
+class customer:
+    print("1.Add Customer:")
+    print("2.Delete Customer:")
+    print("3.Show all customer:")
+    print("4.Update customer:")
+    print("5.Exit:")
+op=int(input("Please select one option from the given list\n"))
+ch = int(input())
 while ch!=5:
     if ch==1:
         def addcustomer(self):
@@ -16,11 +14,11 @@ while ch!=5:
             self.no=int(input("enter the customer no:"))
             self.add=str(input("enter the customer address"))
     if ch==2:
-        def deletecustomer(self.id):
-        if(self.id==id):
-            delete(self.name,self,no,self.add)
-        else:
-            print("Customer ID not matched with any existing ID")
+        def deletecustomer(id):
+            if(self.id==id):
+                delete(self.name,self,no,self.add)
+            else:
+                print("Customer ID not matched with any existing ID")
 
     if ch==3:
         def showCustomer(self):
